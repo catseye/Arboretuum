@@ -293,7 +293,7 @@
          )
          (
            ((ast:  (let #(n sym) #(v) #(expr)) => #(expr)            )
-            (stab: eot                         => (#(n) #(v) EOT)    ))
+            (stab: eot                         => (#(n) #(v) eot)    ))
            ((ast:  #(n sym)                    => #(v)               )
             (stab: (#(n) #(v) #(tab))          => (#(n) #(v) #(tab)) ))
            ((ast: #(a num)                     => _                  )
